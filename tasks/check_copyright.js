@@ -48,7 +48,7 @@ module.exports = function(grunt) {
         }
       }).map(function(filepath) {
         // Read file source.
-        var file = grunt.file.read(filepath).split("\r\n");
+        var file = grunt.file.read(filepath).split(/[\r\n]+/g);
         var lines = file.slice(0, options.lines).join();
         var hasCopyright = false;
         options.copyrights.forEach(function (copyright) {
