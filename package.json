@@ -1,7 +1,7 @@
 {
   "name": "grunt-check-copyright",
   "description": "Grunt plugin to check if copyright is present in files",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "",
   "author": {
     "name": "vamsee",
